@@ -1,0 +1,114 @@
+/* General body style */
+body {
+    background-image: url('/static/images/1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: Georgia, serif;
+    color: #3a1e22;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header style */
+header {
+    background-color: transparent; 
+    color: #4E3A2A;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    left: 350px;
+    top: -5px;
+    height: 165px; 
+    max-width: 100%;
+}
+
+/* Main heading style */
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.intro {
+    text-align: center;
+    margin: 20px;
+    color: #451800;
+}
+
+.intro h2 {
+    font-size: 1.7em; 
+    margin-bottom: 10px;
+    color: #3F2A3C;
+
+}
+
+.intro p {
+    font-size: 1.1em; 
+    line-height: 1.6; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+
+/* Form style */
+form {
+    background: #fef3f0; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Buttons */
+button {
+    background-color: #ceadae;
+    color: #3a1e22;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Recommendations style */
+#recommendations {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+    color: #54363b;
+}
+footer {
+    background-color: #ceb19d; 
+    color: #4C392D; 
+    font-family: 'Montserrat', sans-serif; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 20px; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
+    box-sizing: border-box;
+}
+
+.tagline {
+    margin: 0 auto; 
+    text-align: left; 
+    flex-grow: 1;
+    font-size:large;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-content {
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between; 
+    font-size:medium;
+}
+
+
